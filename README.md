@@ -10,7 +10,7 @@ Requirements:
 * macOS computer (for building native library, etc.)
 * This only works within a `.app` file, so your program needs to be bundled in a `.app` for this to work.
 * Your `.app` needs a valid `Info.plist` defined with all the things Sparkle requires (`SUFeedURL`, etc.).
-* This project comes with a pre-build `Sparkle.framework`. If you don't feel comfortable using that for whatever reason, just clone the [Sparkle repo]((https://github.com/sparkle-project/Sparkle)), build it yourself, and make sure your build's output Sparkle.framework is in the same place as the current one.
+* This project comes with a pre-built `Sparkle.framework`. If you don't feel comfortable using that for whatever reason, just clone the [Sparkle repo]((https://github.com/sparkle-project/Sparkle)), build it yourself, and make sure your build's output Sparkle.framework is in the same place as the current one.
 
 1. Download/clone this project. It'll work just fine within your current project structure.
 2. Open up `SparkleUpdater/SparkleUpdater.xcodeproj` in Xcode. Build the project in both debug and release. The output defaults to `SparkleUpdater/build/{Configuration}/libSparkleUpdater.dylib`.
