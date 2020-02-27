@@ -1,6 +1,6 @@
 # macOS.SparkleUpdater.Avalonia
 
-Use the popular [macOS Sparkle](https://github.com/sparkle-project/Sparkle) library in your [Avalonia](https://github.com/AvaloniaUI/Avalonia) projects! With this setup, you can still develop in Visual Studio normally without bundling the `.app` -- the native lib will make sure you're in a `.app` with a few `Info.plist` values defined before it runs Sparkle. When your project is ready for prime-time and you've got a `.app` ready, you can use this setup to run Sparkle with your app!
+Use the popular [macOS Sparkle](https://github.com/sparkle-project/Sparkle) library in your macOS [Avalonia](https://github.com/AvaloniaUI/Avalonia) projects! With this setup, you can still develop in Visual Studio normally without bundling the `.app` -- the native lib will make sure you're in a `.app` with a few `Info.plist` values defined before it runs Sparkle. When your project is ready for prime-time and you've got a `.app` ready, you can use this setup to run Sparkle with your app!
 
 ## Setup
 
