@@ -76,3 +76,7 @@ codesign --verbose --force --deep --options=runtime --sign "$IDENTITY" "MyApp.ap
 codesign --verbose --force --options=runtime --sign "$IDENTITY" "MyApp.app/Contents/Frameworks/Sparkle.framework/Versions/A"
 codesign --verbose --force --options=runtime --sign "$IDENTITY" "MyApp.app/Contents/Frameworks/Sparkle.framework"
 ```
+
+**What about all the Sparkle delegate functions, etc.?**
+
+You'll need to modify the native lib yourself. Maybe you'd be willing to contribute those improvements back to this library?
