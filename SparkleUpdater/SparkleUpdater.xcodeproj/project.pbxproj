@@ -257,6 +257,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 799AEF9324085E4A00D95239 /* Config.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -275,6 +276,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 799AEF9324085E4A00D95239 /* Config.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
